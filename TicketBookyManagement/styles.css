@@ -1,0 +1,8 @@
+body { font-family: Arial, sans-serif; background-color: #f4f4f4; margin: 0; padding: 20px; }
+h1 { color: #333; }
+form { background: #fff; padding: 20px; border-radius: 5px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
+label { display: block; margin: 10px 0 5px; }
+select, input { width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 5px; }
+button { background: #5cb85c; color: white; border: none; padding: 10px 15px; border-radius: 5px; cursor: pointer; }
+button:hover { background: #4cae4c; }
+#bookingConfirmation { margin-top: 20px; }

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel='stylesheet' href='styles.css'>
+    <title>Bus Ticket Management</title>
+</head>
+<body>
+    <h1>Bus Ticket Booking System</h1>
+    <form id='bookingForm'>
+        <label for='busOptions'>Choose a Bus:</label>
+        <select id='busOptions'></select>
+        <label for='seats'>Choose Seats:</label>
+        <input type='number' id='seats' min='1' max='5'>
+        <button type='submit'>Book Ticket</button>
+    </form>
+    <div id='bookingConfirmation'></div>
+    <script src='app.js'></script>
+</body>
+</html>
